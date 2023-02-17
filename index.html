@@ -4,10 +4,27 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>unidad 2, ejercicio 1</title>
+    <title>Ejercicio 2 - Formularios en HTML</title>
 </head>
 <body>
-    <h1>Titulo</h1>
-    <p>Hola</p>
+    <form action="">
+        <div>
+            <label for="username">Nombre</label>
+            <input type="text" name="username" id="username"/>
+        </div>
+        <br>
+        <div>
+            <label for="userage">Edad</label>
+            <input type="number" name="userage" id="userage"/>
+        </div>
+        <br>
+        <div>
+            <label for="favoritephrase">Frase favorita</label>
+            <textarea name="favoritephrase" id="favoritephrase">Escribe tu frase favorita acá</textarea>
+        </div>
+        <br>
+        <button type="submit">Enviar</button>
+        <button type="reset">Borrar</button>
+    </form>
 </body>
 </html>
